@@ -1,1 +1,27 @@
 @import "tailwindcss";
+
+/* Google Font - DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+@import "tailwindcss";
+
+/* Local Gilroy Fonts */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-FREE/Gilroy-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./fonts/Gilroy-FREE/Gilroy-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Register in @theme */
+@theme {
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-gilroy: "Gilroy", sans-serif;
+}
